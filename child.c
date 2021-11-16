@@ -10,7 +10,7 @@ int main()
     int masterid, row_id, row1[width], row2[width], result[width], i;
     masterid = pvm_parent();
     if (masterid == 0)
-        exit(1);
+        return 1;
 
     while (1)
     {
